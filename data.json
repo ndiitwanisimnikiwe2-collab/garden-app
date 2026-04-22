@@ -1,0 +1,32 @@
+{
+  "seasons": {
+    "summer": "Water plants regularly and provide shade during extreme heat.",
+    "autumn": "Prepare soil and plant bulbs for spring.",
+    "winter": "Protect plants from frost and reduce watering.",
+    "spring": "Plant new flowers and fertilize soil."
+  },
+  "plants": {
+    "tomatoes": "Require full sun and consistent watering.",
+    "roses": "Prune regularly and ensure good airflow.",
+    "lettuce": "Prefers cool weather and moist soil.",
+    "herbs": "Need good drainage and moderate sunlight."
+  },
+  "qa": {
+    "watering": {
+      "keywords": ["water", "watering", "irrigation"],
+      "answer": "Water deeply but less frequently to encourage strong root growth."
+    },
+    "soil": {
+      "keywords": ["soil", "compost", "dirt"],
+      "answer": "Use nutrient-rich, well-draining soil with organic matter."
+    },
+    "sunlight": {
+      "keywords": ["sun", "light", "sunlight"],
+      "answer": "Most plants require at least 6 hours of sunlight daily."
+    },
+    "fertilizer": {
+      "keywords": ["fertilizer", "feed", "nutrients"],
+      "answer": "Apply balanced fertilizer during the growing season."
+    }
+  }
+}
