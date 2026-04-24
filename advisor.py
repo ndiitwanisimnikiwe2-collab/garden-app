@@ -105,7 +105,7 @@ exit                 → Quit application
 """)
 
     def run(self):
-        print("🌿 Welcome to the Garden App Pro 🌿")
+        print("🌿 Welcome to the Garden App 🌿")
         self.show_help()
 
         while True:
