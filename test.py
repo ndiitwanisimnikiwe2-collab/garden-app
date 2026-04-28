@@ -7,12 +7,15 @@ from advisor import GardenAdvisor
 
 def test_season_mapping():
     advisor = GardenAdvisor()
-    assert advisor.get_advice_by_month(1) is not None
+    result = advisor.get_advice_by_month(1)
+    assert isinstance(result, str)
+    assert len(result) > 0
 
 
 def test_plant_advice():
     advisor = GardenAdvisor()
-    assert "sun" in advisor.get_plant_advice("tomatoes").lower()
+    result = advisor.get_plant_advice("tomatoes")
+    assert "sun" in result.lower()
 
 
 def test_question_answering():
