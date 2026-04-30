@@ -14,7 +14,7 @@ def get_season_advice(season):
 # Function to handle plant advice
 def get_plant_advice(plant_type):
     if plant_type == "flower":
-        return "Use fertiliser to encourage blooms."
+        return "Use fertilisers to encourage blooms."
     elif plant_type == "vegetable":
         return "Keep an eye out for pests!"
     else:
