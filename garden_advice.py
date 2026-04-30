@@ -2,7 +2,7 @@
 season = input("Enter the season (summer/winter): ").lower().strip()
 plant_type = input("Enter the plant type (flower/vegetable): ").lower().strip()
 
-# Function for season advice
+# Function to handle season advice
 def get_season_advice(season):
     if season == "summer":
         return "Water your plants regularly and provide some shade.\n"
@@ -11,7 +11,7 @@ def get_season_advice(season):
     else:
         return "No advice for this season.\n"
 
-# Function for plant advice
+# Function to handle plant advice
 def get_plant_advice(plant_type):
     if plant_type == "flower":
         return "Use fertiliser to encourage blooms."
@@ -20,7 +20,7 @@ def get_plant_advice(plant_type):
     else:
         return "No advice for this type of plant."
 
-# Combine advice
+# Combine results
 advice = get_season_advice(season) + get_plant_advice(plant_type)
 
 print(advice)
